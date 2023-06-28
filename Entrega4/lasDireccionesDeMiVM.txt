@@ -1,0 +1,5 @@
+IP Privada: 10.0.2.15 
+IP Publica: 189.174.20.200
+MAC: 08:00:27:9e:0a:fc
+
+Si, la direccion IP puclica y privada de mi maquina host son diferentes a la de mi maquina virtual. Las direcciones IP de la maquina virtual es la direccion asignada a la interfaz dentro de la red virtual a la que esta conectada
