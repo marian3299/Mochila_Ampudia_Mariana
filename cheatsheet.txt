@@ -1,0 +1,39 @@
+-------------GIT-------------------------
+ls: lista los arcivos en el directorio o carpeta 
+ls -a: lista tambien los archivos ocultos 
+ls -R: muestra las carpetas y archivos de manera recursiva 
+pwd:muestra la carpeta en la que se esta trabajando actualmente 
+
+mkdir "nombre carpeta": crear carpeta
+touch "nombre archivo": crear archivo
+
+rm "nombre archivo": elimina un archivo
+rmdir "nombre carpeta": elimina una carpeta vacia
+rm -r "nombre carpeta": elimina una carpeta y su contenido
+
+mv (ruta + archivo1)(ruta + archivo2): renombrar archivos
+mv (ruta + carpeta1)(ruta + carpeta2): renombrar carpeta
+mv (ruta + carpeta1)(ruta + carpeta2): mueve contenido de la carpeta1 a la carpeta2
+cp (ruta + archivo1)(ruta + archivo2): copia un archvo o carpeta
+
+cd: cambia de carpeta a un nivel mas bajo
+cd ..: sube un nivel de carpeta
+
+clear: limpia la pantalla de la terminal
+"comando" --help: muestra ayuda del comando
+history: muestra al historial de comandos 
+
+*utilizar comillas para escribir nombres de carpetas o archivos con espacios 
+
+
+-------------GitHub---------------------------
+git init: incializar repositorio
+git add .: agregar todos los archivos
+git commit -m "mensaje": registrar los cambios en el repositorio
+git remote add origin + url del repositorio: apuntar al repositorio remoto (solo se hace una vez)
+git remote -v: para ver que si estamos conectados al repositorio
+git push origin main: envia los cambios al repositorio remoto
+git status: seguimiento del estado de los archivos
+
+git clone + link repositorio: clonamos un repositorio remoto a nuestra computadora 
+git pull: descarga los cambios en el repositorio remoto (hacerlo antes de un push)
